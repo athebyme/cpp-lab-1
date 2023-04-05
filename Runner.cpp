@@ -23,7 +23,6 @@ int Runner::runTask2() {
     std::cin>> _int;
     std::cout << "Changed sign for int using Pointer:\n" << ChangeSign::changeIntPointer(&_int)<<std::endl;
     std::cout << "Changed sign for int using Link:\n" << ChangeSign::changeIntLink(_int)<<std::endl;
-
     std::cout << "Enter float num" << std::endl;
     float _float;
     std::cin >> _float;
