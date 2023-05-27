@@ -1,6 +1,7 @@
-#include <iostream>
-#include "Runner.h"
+#include "src/App.h"
+#include "src/Service/DisplayService/DisplayServiceInterface.h"
 int main() {
-    Runner::runTask4();
-    return 0;
+    return App::create(
+            new Service::ConsoleDisplayService()
+            )->start();
 }

@@ -1,9 +1,4 @@
-//
-// Created by Anton on 18.02.2023.
-//
-
 #include "ChangeSign.h"
-
 int ChangeSign::changeIntPointer(const int *x) {
     return (~(*x)) +1;
 }

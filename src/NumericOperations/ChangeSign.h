@@ -3,8 +3,6 @@
 
 
 class ChangeSign {
-
-
 public:
     static int changeIntLink(int x);
     static int changeIntPointer(const int *x);
@@ -13,4 +11,4 @@ public:
 };
 
 
-#endif //CPP_CHANGESIGN_H
+#endif

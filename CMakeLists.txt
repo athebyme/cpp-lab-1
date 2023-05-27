@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.23)
-project(CPP)
+cmake_minimum_required(VERSION 3.25)
+project(cpp_lab_1)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CPP main.cpp Lab1/Addition.cpp Lab1/Addition.h Runner.cpp Runner.h Lab1/ChangeSign.cpp Lab1/ChangeSign.h Lab1/Complex.cpp Lab1/Complex.h Lab1/MatrixMultiply.cpp Lab1/MatrixMultiply.h)
+add_executable(cpp_lab_1 main.cpp src/App.cpp src/NumericOperations/Addition.cpp src/NumericOperations/ChangeSign.cpp src/NumericOperations/Complex.cpp src/Matrix/Matrix.h src/Matrix/MatrixLogic.cpp)
